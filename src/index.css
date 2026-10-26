@@ -1,0 +1,61 @@
+@import "@fontsource/cairo/400.css";
+@import "@fontsource/cairo/600.css";
+@import "@fontsource/cairo/700.css";
+@import "@fontsource/amiri/400.css";
+@import "@fontsource/amiri/700.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Cairo', 'Amiri', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Amiri', 'Cairo', serif;
+}
+
+@layer base {
+  *, ::before, ::after {
+    font-family: 'Cairo', 'Amiri', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Arial, sans-serif;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', 'Cairo', serif !important;
+}
+
+.font-scheherazade {
+  font-family: 'Amiri', 'Cairo', serif !important;
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+/* Custom scrollbar for dua text reading */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(247, 194, 0);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(185, 16, 16, 0.6);
+}
+
+/* Islamic pattern background utility */
+.islamic-bg-pattern {
+  background-color: #064e3b;
+  background-image: radial-gradient(#10b981 0.75px, transparent 0.75px), radial-gradient(#059669 0.75px, #064e3b 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.subtle-emerald-pattern {
+  background-image: radial-gradient(rgba(16, 185, 129, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}

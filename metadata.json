@@ -1,0 +1,6 @@
+{
+  "name": "حقيبة المؤمن - الرفيق الإسلامي الشيعي",
+  "description": "تطبيق إسلامي شامل وفق فقه أهل البيت (ع) يتضمن المواقيت الشرعية الجعفرية، مفاتيح الجنان، أعمال الأيام، المسبحة الذكية وعداد الركعات والسجدات.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
